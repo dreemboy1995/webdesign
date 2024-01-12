@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopper Templete</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header{
+            display: flex;
+            justify-content:space-between;
+            background-color:papayawhip;
+            padding:30px;    
+            margin: auto;        
+        }
+        .brandname{
+            font-size: 30px;
+            font-weight: bold;
+                    }
+        nav span{
+            margin-right: 20px;
+            font-size: 20px;
+           
+            
+        }
+        .quicklinks span{
+            margin-right:15px;
+        }
+        article{
+            background-color: cadetblue;
+            font-size: 16px;
+            text-align: center;
+            padding: 15px;
+            color: white;
+                }
+                article span{
+                    color:gold;
+                }
+                section{
+                    height:300px;
+                }
+                footer{
+                    background-color: black;
+                    color: white;
+                    padding:10px;
+                    display:grid;
+                    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+                    height:200px;
+                }
+                .brand-title+div{
+                    margin-top: 15px;
+                }
+                .brand-title+div span{
+                    margin-right: 15px;
+                }
+                .footer-title+div{
+                    margin-top: 15px;
+                }
+                .footer-title+address{
+                    margin-top: 15px;
+                }
+                .footer-title~div{
+                    margin-bottom: 15px;
+                }
+                address div{
+                    margin-bottom: 15px;
+                }
+                header{
+                position: relative;
+                    top:10px;
+                }
+              #relative{
+                
+              }
+            .orders{
+                position: absolute;
+                top:5px;
+                right: 28px;
+                background-color:black;
+                color: white;
+                padding:5px;
+                border-radius: 20px;            
+            }
+
+    </style>
+
+</head>
+<body>
+      <header>
+        <div class="brandname">Shopper.</div>
+        <div class="row-1">
+            <nav>
+            <span>Home</span>
+            <span>Catalog</span>
+            <span>Shop</span>
+            <span>Pages</span>
+            <span>Blog</span>
+            <span>Docs</span>
+            </nav>
+        </div>
+        <div class="quicklinks">
+            <span class="bi bi-search"></span>
+            <span class="bi bi-person"></span>
+            <span class="bi bi-heart"></span>
+            <span id="relative" class="bi bi-cart"></span><span class="orders">4</span>
+        </div>
+    </header>
+      <article>
+       <span class="bi bi-lightning-fill"></span>HAPPY HOLIDAY DEALS ON EVERYTHING<span class="bi bi-lightning-fill"></span>
+      </article>
+      <section>
+
+      </section>
+      <footer>
+        <div>
+        <div class="brand-title">Shopper.</div>
+        <div>
+        <span class="bi bi-facebook"></span>
+        <span class="bi bi-youtube"></span>
+        <span class="bi bi-twitter"></span>
+        <span class="bi bi-instagram"></span>
+        <span class="bi bi-linkedin"></span>
+        </div>
+        </div>
+        <div>
+            <div class="footer-title">SUPPORT</div>
+            <div>Contact Us</div>
+            <div>FAQs</div>
+            <div>Size Guide</div>
+            <div>Shipping & Returns</div> 
+        </div>
+        <div>
+            <div class="footer-title">SHOP</div>
+            <div>Men's Shopping</div>
+            <div>Women's Shopping</div>
+            <div>Women's Shopping</div>
+            <div>Discounts</div> 
+        </div>
+        <div>
+            <div class="footer-title">COMPANY</div>
+            <div>Our Story</div>
+            <div>Careers</div>
+            <div>Terms & Conditions</div>
+            <div>Privacy & Cookie policy</div>            
+        </div>
+        <div>
+            <div class="footer-title">CONTACT</div>
+            <address>
+            <div>9642639917</div>
+            <div>reddyanan</div>
+            <div>Terms & Conditions</div>
+            <div>Privacy & Cookie policy</div>
+            </address>            
+        </div>
+        </div>
+        
+
+    
+      </footer>
+
+</body>
+</html>
